@@ -1,0 +1,157 @@
+body {
+    background-color: #eaeaea;
+}
+
+.signin-content {
+
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 70px 100px;
+    font-family: Poppins;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#signUpForm {
+    display: none;
+}
+
+.main {
+    padding: 50px 170px;
+
+}
+
+#login-form {
+
+    padding-right: 50px;
+    margin-bottom: 67px;
+}
+
+#signup-form {
+
+    padding-right: 50px;
+    margin-bottom: 67px;
+}
+
+.form-check-label {
+    font-size: 13px;
+}
+
+.form-check-label a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+.form-title {
+    font-weight: bolder;
+    font-size: 37px;
+    margin-bottom: 40px;
+}
+
+#signin {
+    text-decoration: none;
+    border: none;
+    background-color: #4292DC;
+    color: white;
+    padding: 15px;
+    width: 120px;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+
+#signup {
+    text-decoration: none;
+    border: none;
+    background-color: #4292DC;
+    color: white;
+    padding: 15px;
+    width: 120px;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.signup-link {
+    position: relative;
+    left: 50px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#signUpLink : hover {
+
+    cursor: pointer;
+
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+.trainer {
+    font-weight: bold;
+    color: black;
+}
+
+.form-check {
+    position: relative;
+    bottom: 20px;
+}
+
+input {
+    border: none !mportant;
+
+}
+
+.trainer:hover {
+    color: black;
+}
+
+#hideMe {
+    text-align: center;
+
+    margin-bottom: 8px;
+    -moz-animation: cssAnimation 0.5s ease-in-out 6s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in-out 6s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in-out 6s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in-out 6s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+}
+
+.alert {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+}
+
+
+@keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+@-webkit-keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+}
